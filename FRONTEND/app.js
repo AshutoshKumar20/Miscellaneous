@@ -1,7 +1,7 @@
 function personMaker(name, age) {
     const person = {
-        "name": name,
-        "age": age,
+        name: name,
+        age: age,
         talk() {
             console.log(`Hi! My name is ${name}`);
         }
